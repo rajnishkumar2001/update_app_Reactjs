@@ -1,0 +1,132 @@
+body{
+  overflow: hidden;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main .left-side {
+  width: 47%;
+  float: left;
+  height: 50rem;
+  background-color: antiquewhite;
+  margin: 2rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  overflow: scroll;
+}
+
+.main .right-side {
+  width: 45%;
+  float: right;
+  height: 50rem;
+  background-color: antiquewhite;
+  margin: 2rem;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 5rem;
+  /* overflow: auto; */
+}
+
+.main .right-side textarea {
+  width: 38rem;
+  height: 39rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+.topic-date,
+.progress-task,
+.in-progress-task,
+.notes {
+  margin-left: 2rem;
+}
+
+/* .progress-task,
+.in-progress-task,
+.notes {
+  position: relative;
+} */
+
+.team-leader,
+.topic-name,
+.topic-date-field,
+.name-input {
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  width: 20rem;
+}
+
+.add-btn,
+.remove-btn {
+  border-radius: 15px;
+  margin: 4px;
+
+
+}
+/* .btn-group {
+  position: absolute;
+  top: 0%;
+  right: 32px;
+} */
+
+.progress-input,
+.in-progress-input,
+.notes-input {
+  border: none;
+  border-radius: 20px;
+  padding-left: 10px;
+  width: 40rem;
+  height: 2.2rem;
+}
+
+.copy {
+  position: absolute;
+  right: 12rem;
+  top: 8rem;
+  border-radius: 20px;
+  width: 4rem;
+}
+
+.title-wrapper {
+  width: 160px;
+}
